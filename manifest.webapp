@@ -1,0 +1,11 @@
+{
+  "name": "GeoLocTest",
+  "description": "Test geolocation on r2d2b2g",
+  "icons": {
+    "128": "/icon.png"
+  },
+  "developer": {
+    "name": "Nick Desaulniers",
+    "url": "http://nickdesaulniers.github.com"
+  }
+}
