@@ -7,5 +7,8 @@
   "developer": {
     "name": "Nick Desaulniers",
     "url": "http://nickdesaulniers.github.com"
+  },
+  "permissions": {
+    "geolocation": {}
   }
 }

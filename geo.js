@@ -8,7 +8,11 @@ document.addEventListener('DOMContentLoaded', function () {
       domWrite('lat: ' + lat + ', lon:' + lon);
     },
     function error (error) {
-      domWrite(error.message);
+      switch (error.code) {
+        case 1: domWrite('Permission Denied'); break;
+        case 2: domWrite('Position Unavailable'); break;
+        case 3: domWrite('Timed Out'); break;
+      }
     });
   } else {
     domWrite('No navigatior.geolocation');
