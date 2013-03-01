@@ -10,5 +10,6 @@
   },
   "permissions": {
     "geolocation": {}
-  }
+  },
+  "launch_path": "/index.html"
 }
